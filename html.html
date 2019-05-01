@@ -1,96 +1,101 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-<!--  
-  copy for music button
-
-<div class="col">
-              <button onClick="getVideo()">Music</button>
-            </div>
-
-  copy for sound button
-
-<div class="col">
-              <button onClick="getAudio()">Sound</button>
-            </div>
--->
+<script src="script/js.js"></script>
+<link rel="stylesheet" href="style/css.css">
+<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
 
 <html>
 <main>
   <div id="sound-board" class="container">
 
-    
+
     <!-- Dungeon Music -->
-    <h1>Dungeon</h1>
+    <h1 id="DungeonTitle">Dungeon</h1>
     <div class="row">
       <div class="col buttons">
         <div class="container">
           <h3>Music</h3>
           <div class="row">
             <!-- pass video id as button onClick argument -->
-            
+
             <div class="col-4">
-              <button onClick="getVideo()">Music</button>
+              <button onClick="getVideo('K1JvqHnSHfc')">Skyrim Dungeon</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('huN376F3QTg')">Forest Temple</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('Ab60XEyA5OQ')">Stone Tower Temple</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('pkAe7x3kOgc')">Shadow Temple</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('LMGzHTn5Aa4')">Water Temple</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('lYAqklair1k')">Deku Tree</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('i5q8fs4SMmI')">Dodongo Cave</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('L6JH0EfTIKw')">Souls of Fire</button>
             </div>
-            
+
             <div class="col-4">
-              <button onClick="getVideo('8nvfzoQ9Zf8')">Ori and the Blind Forest</button>
+              <button onClick="getVideo('8nvfzoQ9Zf8')">OatBF Dungeon</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('i2y2RsFub90')">HK Crystal Peak</button>
             </div>
           </div>
         </div>
       </div>
-      
-      
+
+
       <!-- Dungeon Ambience -->
       <div class="col buttons">
         <div class="container">
           <h3>Ambience</h3>
           <div class="row">
             <!-- pass video id as button onClick argument -->
-            
+
             <div class="col-4">
               <button onClick="getAmbience('tB_c1R_ir9U')">RPG Dungeon Ambience</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAmbience('kxqJuc1HHbg')">D&D Tomb</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAmbience('_2AAR9jRc7I')">Cave Ambience</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getAmbience('NMUoicf5kYw')">Underdark Ambience</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getAmbience('9XxeusnM2eY')">HK Deepnest (Insects)</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getAmbience('MccKXmuI3Yo')">HK Deepnest (No Insects)</button>
             </div>
           </div>
         </div>
       </div>
-      
-      
+
+
 <!-- Dungeon Sounds -->
       <div class="col buttons">
         <div class="container">
@@ -99,182 +104,123 @@
             <div class="col-4">
               <button onClick="getAudio('2P5qbcRAXVk')">Metal Gear Alert</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAudio('CFpyNWlB0ZI')">Hissing</button>
             </div>
-            
+
             <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
+              <button onClick="getAudio('5VRr9NG7RE0')">Long Chest</button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Dungeon Music2 -->
-    <div class="row">
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Dungeon Ambience2 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
+
             <div class="col-4">
-              <button onClick="getAmbience('NMUoicf5kYw')">Underdark Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience('K1JvqHnSHfc')">Skyrim Dungeon Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience('9XxeusnM2eY')">HK Deepnest (Insects)</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-<!-- Dungeon Sounds2 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-<!--   Dungeon Music3   -->
-    <div class="row">
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-           
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Dungeon Ambience3 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getAmbience('MccKXmuI3Yo')">HK Deepnest (No Insects)</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-<!-- Dungeon Sounds3 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
+              <button onClick="getAudio('SWBDQqyxujE')">Short Chest</button>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    
-    
+
+
     <h1>Combat</h1>
     <div class="row">
       <div class="col buttons">
         <div class="container">
           <h3>Music</h3>
+          <h5>Boss Music</h5>
           <div class="row">
             <!-- pass video id as button onClick argument -->
-            
+
             <div class="col-4">
               <button onClick="getVideo('ujVNKQrYSuk')">Epic Battle Music</button>
             </div>
-            
+
             <div class="col-4">
-              <button onClick="getVideo('9O4_awEHh1g')">Two Steps From Hell Mix</button>
+              <button onClick="getVideo('9O4_awEHh1g')">TSFH Mix</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('Z9dNrmGD7mU')">Dark Souls Boss</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('51s9fG6hNf4')">Very Epic Mix (Epic)</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('qdjlbxm0zpY')">Diablo 3 Final Boss</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('2b_QS5xoN44')">Zelda OoT Final Boss</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('4szfmKTFoXA')">D&D Battle Music 2</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('N_RLDDly1tc')">Majora's Mask Boss</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('wgLVNLEMJ0A')">Gerudo Valley Orchestral</button>
+            </div>
+          </div>
+          <h5>Large Encounter</h5>
+          <div class="row">
+
+            <div class="col-4">
+              <button onClick="getVideo('c2Jk1FAXENs')">BotW Vah Ruta Battle</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('69nd6-dgqR8')">BotW Stone Talus</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('JYFU_RiefKk')">Darkest Dungeon</button>
+            </div>
+          </div>
+          <h5>Small Encounter</h5>
+          <div class="row">
+
+            <div class="col-4">
+              <button onClick="getVideo('yVsuE1rdpV4')">BotW Battle Music</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('Zo5pwXId9bg')">ZLBW Lorule Castle</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('S2NK_cnCYeA')">HK Hornet</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('8Kf_SgGkOyw')">HK Dung Defender</button>
             </div>
           </div>
         </div>
       </div>
-      
-      
+
+
       <!-- Combat Ambience -->
       <div class="col buttons">
         <div class="container">
           <h3>Ambience</h3>
           <div class="row">
             <!-- pass video id as button onClick argument -->
-            
+
             <div class="col-4">
               <button onClick="getAmbience('g-QriJRgyBg')">Background Combat</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
             </div>
           </div>
         </div>
       </div>
-      
-      
+
+
 <!-- Combat Sounds -->
       <div class="col buttons">
         <div class="container">
@@ -283,281 +229,24 @@
             <div class="col-4">
               <button onClick="getAudio('MdN0NXgjsn8')">Victory Screech</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAudio('-YCN-a0NsNk')">Final Fantasy Victory</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAudio('CfBCD1IjRo0')">Record Scratch</button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-<!--   Combat Music   -->
-    <div class="row">
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            
-            
-            <div class="col-4">
-              <button onClick="getVideo('4szfmKTFoXA')">D&D Battle Music 2</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('2b_QS5xoN44')">Zelda OoT Final Boss</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Combat Ambience2 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-<!-- Combat Sounds2 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
+
             <div class="col-4">
               <button onClick="getAudio('S-Xrlf3taEo')">Death</button>
             </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
           </div>
         </div>
       </div>
     </div>
-    
-    
-    <!--   Combat Music3   -->
-    <div class="row">
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getVideo('qdjlbxm0zpY')">Diablo 3 Final Boss</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('yVsuE1rdpV4')">BotW Battle Music</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('c2Jk1FAXENs')">BotW Vah Ruta Battle</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Combat Ambience3 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-<!-- Combat Sounds3 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-    <!--   Combat Music4   -->
-    <div class="row">
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getVideo('69nd6-dgqR8')">BotW Stone Talus</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('N_RLDDly1tc')">Majora's Mask Boss</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('wgLVNLEMJ0A')">Gerudo Valley Orchestral</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Combat Ambience4 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-<!-- Combat Sounds4 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-    <!--   Combat Music4   -->
-    <div class="row">
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getVideo('69nd6-dgqR8')">BotW Stone Talus</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('N_RLDDly1tc')">Majora's Mask Boss</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('wgLVNLEMJ0A')">Gerudo Valley Orchestral</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Combat Ambience4 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-<!-- Combat Sounds4 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
+
+
     <h1>Town</h1>
     <div class="row">
       <div class="col buttons">
@@ -565,46 +254,70 @@
           <h3>Music</h3>
           <div class="row">
             <!-- pass video id as button onClick argument -->
-            
+
             <div class="col-4">
               <button onClick="getVideo('Rht6d7WLk1c')">Twilight Princess Shop</button>
             </div>
-            
+
             <div class="col-4">
-              <button onClick="getVideo('PBZWb5TA9Kw')">Instrumen- tal Music</button>
+              <button onClick="getVideo('PBZWb5TA9Kw')">Instrum- ental Music</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('4ceowgHn8BE')">Peaceful Mix</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('ofRl4zdjnQI')">OoT Shop</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('qh33z5NFJSY')">BotW Rito Village</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('fIuO3RpMvHg')">Tavern Music</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('1h_sSI0nHQc')">Clock Town</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('NLK9YVOU8eo')">OoT Town</button>
             </div>
           </div>
         </div>
       </div>
-      
-      
+
+
       <!-- Town Ambience -->
       <div class="col buttons">
         <div class="container">
           <h3>Ambience</h3>
           <div class="row">
             <!-- pass video id as button onClick argument -->
-            
+
             <div class="col-4">
               <button onClick="getAmbience('NeOg8iCFfTA')">RPG Town Ambience</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAmbience('ORsxCDaPtrc')">RPG Town Ambience 2</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAmbience('EULoybB2Nsw')">Tavern Ambience</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getAmbience('0p79IBaksXU')">Bar Fight</button>
             </div>
           </div>
         </div>
       </div>
-      
-      
+
+
 <!-- Town Sounds -->
       <div class="col buttons">
         <div class="container">
@@ -613,86 +326,28 @@
             <div class="col-4">
               <button onClick="getAudio('PfriI_DDifE')">Booing</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAudio('tq-Bp_2FOGA')">Cheering</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAudio('miQKTNjll3E')">Gasping</button>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-<!--   Town Music2   -->
-    <div class="row">
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getVideo('ofRl4zdjnQI')">OoT Shop</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('qh33z5NFJSY')">BotW Rito Village</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('fIuO3RpMvHg')">Tavern Music</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Town Ambience2 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-<!-- Town Sounds2 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
+
             <div class="col-4">
               <button onClick="getAudio('qsOUv9EzKsg')">Hearthfire</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAudio('7rSSrC6v7Wk')">Laughter</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    
+
+
     <h1>Overworld</h1>
     <div class="row">
       <div class="col buttons">
@@ -700,218 +355,126 @@
           <h3>Music</h3>
           <div class="row">
             <!-- pass video id as button onClick argument -->
-            
+
             <div class="col-4">
               <button onClick="getVideo('hBkcwy-iWt8')">Skyrim Day</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('aK4JSwhdcdE')">Skyrim Night</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getVideo('LwMic-KXQlY')">WoW - Feralas</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('LML6SoNE7xE')">LotR Shire</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('x7BCa9Y8Of8')">Skyrim Tundra</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('A8qMyBWZNw0')">Peaceful Travel Music</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('v2qOllkxwiw')">Celtic Music Mix</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('asHAvqwZ1Ig')">BotW Night Mix</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('VQp8Y5qaIp8')">BotW Korok Forest</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('bApZlafaiL4')">OatBF Overworld</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('3ZX7KxLcs2M')">ZLBW Lost Woods</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('pfLr33rbZGA')">Zelda TP Lost Woods</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getVideo('fZdsd6mfQsI')">Zora's Domain</button>
             </div>
           </div>
         </div>
       </div>
-      
-      
+
+
       <!-- Overworld Ambience -->
       <div class="col buttons">
         <div class="container">
           <h3>Ambience</h3>
           <div class="row">
             <!-- pass video id as button onClick argument -->
-            
+
             <div class="col-4">
               <button onClick="getAmbience('qsOUv9EzKsg')">Campfire</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAmbience('OdIJ2x3nxzQ')">Forest</button>
             </div>
-            
+
             <div class="col-4">
               <button onClick="getAmbience('IvjMgVS6kng')">River</button>
+            </div>
+
+            <div class="col-4">
+              <button onClick="getAmbience('Qo4JIT8jMtI')">Rain</button>
             </div>
           </div>
         </div>
       </div>
-      
-      
+
+
 <!-- Overworld Sounds -->
       <div class="col buttons">
         <div class="container">
           <h3>Sounds</h3>
           <div class="row">
+
             <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-<!-- Overworld Music2 -->
-    <div class="row">
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getVideo('LML6SoNE7xE')">LotR Shire</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('x7BCa9Y8Of8')">Skyrim Tundra</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('A8qMyBWZNw0')">Peaceful Travel Music</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Overworld Ambience2 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getAmbience('Qo4JIT8jMtI')">Rain</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-<!-- Overworld Sounds2 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-    <!-- Overworld Music3 -->
-    <div class="row">
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getVideo('v2qOllkxwiw')">Celtic Music Mix</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('asHAvqwZ1Ig')">BotW Night Mix</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getVideo('VQp8Y5qaIp8')">BotW Korok Forest</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Overworld Ambience3 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <!-- pass video id as button onClick argument -->
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAmbience()">Ambience</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-<!-- Overworld Sounds3 -->
-      <div class="col buttons">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
-            </div>
-            
-            <div class="col-4">
-              <button onClick="getAudio()">Sound</button>
+              <button onClick="getAmbience('KAHbSVKDguw')">Wolf Howling</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  
+
+
 <!-- video and audio players -->
-  <div class="row">
-    <div class="col-4-lg video-frame">
+  <div class="container" id="video-container">
+  <div class="row video-row">
+    <div class="col-4 video-frame">
       <div id="video">
         <iframe id="videoPlayer" controls autoplay>
         </iframe>
       </div>
     </div>
-    <div class="col-4-lg video-frame">
+    <div class="col-4 video-frame">
       <div id="ambience">
         <iframe id="ambiencePlayer" controls autoplay></iframe>
       </div>
     </div>
-    <div class="col-4-lg video-frame">
+    <div class="col-4 video-frame">
       <div id="audio">
         <iframe id="audioPlayer" controls autoplay></iframe>
       </div>
     </div>
+  </div>
   </div>
 </main>
 
