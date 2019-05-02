@@ -7,6 +7,8 @@
 }
 
 button {
+  font-size: 15px;
+  font-family: 'Merienda', cursive;
   margin-bottom: 20px;
   border: 3px outset;
 /*   border-color: silver */
